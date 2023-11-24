@@ -1,9 +1,21 @@
-import React from 'react'
+import React from "react";
 
 const HeaderBar = () => {
   return (
-    <div>HeaderBar</div>
-  )
-}
+    <header className="flex w-full p-5 justify-between text-sm text-gray-700">
+      {/* LEFT SECTION */}
+      <div className="flex space-x-4 items-center">
+        <p className="link">About</p>
+        <p className="link">Store</p>
+      </div>
 
-export default HeaderBar
+      {/* RIGHT SECTION */}
+      <div className="flex space-x-4 items-center">
+        <p className="link">Gmail</p>
+        <p className="link">Images</p>
+      </div>
+    </header>
+  );
+};
+
+export default HeaderBar;
