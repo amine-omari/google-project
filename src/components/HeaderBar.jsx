@@ -1,5 +1,6 @@
 import Menu from "@/icons/Menu";
 import React from "react";
+import Avatar from "./Avatar";
 
 const HeaderBar = () => {
   return (
@@ -14,9 +15,9 @@ const HeaderBar = () => {
       <div className="flex space-x-4 items-center">
         <p className="link">Gmail</p>
         <p className="link">Images</p>
-      </div>
 
-      <Menu styles="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
+        <Menu styles="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
+      </div>
     </header>
   );
 };
