@@ -1,3 +1,4 @@
+import Microphone from "@/icons/Microphone";
 import Search from "@/icons/Search";
 import Image from "next/image";
 import React from "react";
@@ -11,9 +12,10 @@ const BodyBar = () => {
         height={100}
         width={300}
       />
-      <div>
+      <div className="flex w-full mt-5 hover:shadow-lg">
         <Search styles="h-5 mr-3 text-gray-500" />
-        <input type="text" className="focus:outline-none" />
+        <input type="text" className="bg-red-500 focus:outline-none" />
+        <Microphone styles="h-5" />
       </div>
     </form>
   );
