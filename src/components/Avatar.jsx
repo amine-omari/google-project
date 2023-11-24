@@ -1,3 +1,5 @@
+import React from "react";
+
 function Avatar({ url }) {
   return (
     <img
