@@ -29,7 +29,7 @@ const BodyBar = () => {
         <input type="text" className="flex-grow focus:outline-none" />
         <Microphone styles="h-5" />
       </div>
-      <div>
+      <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm: space-x-4">
         {BODY_BUTTONS.map(({ id, textButtons }) => (
           <BodyButtons key={id} textButton={textButtons} />
         ))}
