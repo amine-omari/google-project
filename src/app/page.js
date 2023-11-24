@@ -1,10 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
+import HeaderBar from "@/components/HeaderBar";
 
 export default function Home() {
   return (
     <div>
-      <header></header>
+      <HeaderBar />
     </div>
   );
 }
