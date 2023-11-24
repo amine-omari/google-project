@@ -1,3 +1,4 @@
+import Menu from "@/icons/Menu";
 import React from "react";
 
 const HeaderBar = () => {
@@ -14,6 +15,8 @@ const HeaderBar = () => {
         <p className="link">Gmail</p>
         <p className="link">Images</p>
       </div>
+
+      <Menu styles="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
     </header>
   );
 };
