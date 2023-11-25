@@ -4,6 +4,6 @@
 
 @layer components {
   .link {
-    @apply hover:underline cursor-pointer;
+    @apply hover:bg-gray-100 py-1 px-2 transition duration-300 rounded-lg cursor-pointer;
   }
 }
