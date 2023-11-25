@@ -24,8 +24,6 @@ const BodyBar = () => {
         height={100}
         width={300}
       />
-
-      
       <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
         <Search styles="h-5 mr-3 text-gray-500" />
         <input type="text" className="flex-grow focus:outline-none" />
