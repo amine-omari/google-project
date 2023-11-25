@@ -28,7 +28,7 @@ const BodyBar = () => {
         <Search styles="h-5 mr-3 text-gray-500" />
         <input type="text" className="flex-grow focus:outline-none" />
         <button>
-          <Microphone styles="h-5" />
+          <Microphone styles="h-5 hover:opacity-70" />
         </button>
       </div>
       <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
