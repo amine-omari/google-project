@@ -4,6 +4,9 @@
 
 @layer components {
   .link {
-    @apply hover:bg-gray-100 py-1 px-2 transition duration-300 rounded-lg cursor-pointer;
+    @apply hover:bg-gray-100 dark:hover:bg-neutral-600 py-1 px-2 transition duration-300 rounded-lg cursor-pointer;
+  }
+  * {
+    @apply transition-colors duration-300;
   }
 }
