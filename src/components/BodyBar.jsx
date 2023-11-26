@@ -25,10 +25,10 @@ const BodyBar = () => {
         width={300}
       />
       <div className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md rounded-full border border-gray-200 px-5 py-3 items-center sm:max-w-xl lg:max-w-2xl">
-        <Search styles="h-5 mr-3 text-gray-500" />
-        <input type="text" className="flex-grow focus:outline-none" />
+        <Search styles="h-5 mr-3 text-gray-500 dark:text-gray-200" />
+        <input type="text" placeholder="Search..." className="flex-grow focus:outline-none bg-transparent dark:text-white" />
         <button>
-          <Microphone styles="h-5 hover:opacity-70" />
+          <Microphone styles="h-5 hover:opacity-70 dark:text-gray-200" />
         </button>
       </div>
       <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
