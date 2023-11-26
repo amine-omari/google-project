@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-const Moon = () => {
+const Moon = ({ styles }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ const Moon = () => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="w-6 h-6"
+      className={styles}
     >
       <path
         strokeLinecap="round"
@@ -17,6 +17,6 @@ const Moon = () => {
       />
     </svg>
   );
-}
+};
 
-export default Moon
+export default Moon;
