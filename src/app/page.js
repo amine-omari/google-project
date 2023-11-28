@@ -1,11 +1,11 @@
 "use client";
 
-import BodyBar from "@/components/BodyBar";
 import FooterBar from "@/components/FooterBar";
 import HeaderBar from "@/components/HeaderBar";
 import Moon from "@/icons/Moon";
 import Sun from "@/icons/Sun";
 import { useState } from "react";
+import FormContainer from "@/components/FormContainer";
 
 export default function Home() {
   const [darkmode, setDarkMode] = useState(false);
@@ -24,7 +24,7 @@ export default function Home() {
             {darkmode ? <Sun styles="w-5 h-5" /> : <Moon styles="w-5 h-5" />}
           </button>
         </HeaderBar>
-        <BodyBar />
+        <FormContainer />
         <FooterBar />
       </div>
     </div>
