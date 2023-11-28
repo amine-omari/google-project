@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import BodyButtons from "./BodyButtons";
 
-const BodyBar = () => {
+const FormContainer = () => {
   const BODY_BUTTONS = [
     {
       id: 1,
@@ -40,4 +40,4 @@ const BodyBar = () => {
   );
 };
 
-export default BodyBar;
+export default FormContainer;
