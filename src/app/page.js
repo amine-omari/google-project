@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center h-screen dark:bg-neutral-800">
         <HeaderBar>
           <button
-            className="p-1 rounded-full bg-neutral-700 text-gray-200 dark:text-neutral-700 dark:bg-gray-200 hover:opacity-90 hover:scale-105 transition duration-300"
+            className="p-1 rounded-full hover:bg-gray-200 text-neutral-700 dark:text-gray-200 dark:hover:bg-neutral-700 hover:opacity-90 hover:scale-105 transition duration-300"
             onClick={toggleDarkMode}
           >
             {darkmode ? <Sun styles="w-5 h-5" /> : <Moon styles="w-5 h-5" />}
